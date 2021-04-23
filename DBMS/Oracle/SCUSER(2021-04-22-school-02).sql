@@ -15,7 +15,7 @@ FROM tbl_student;
 -- 비록 한개의 데이터만 보여지지만
 -- 이 데이터는 2개이상 보여진ㄷ다는 것을 항상 전제하자
 -- 여기에서 보여지는 데이터는 모두가 LIST이다
---      List<VO> voList 에 담아야 한다
+--      List<VO> voList 에 담아 야 한다
 SELECT st_name, st_dept
 FROM tbl_student
 WHERE st_name = '기은성';
@@ -87,4 +87,4 @@ ORDER BY st_addr; -- ASC( 오름차순 ) 가나다 순, ABC순, 12345순
 SELECT *
 FROM tbl_student
 WHERE st_addr LIKE '%북%'
-ORDER BY st_addr DESC ; -- DESCENDING(내림ㄴ차순), 다나가, CBA, 54321순
+ORDER BY st_addr DESC ; -- DESCENDING(내림차순), 다나가, CBA, 54321순  
