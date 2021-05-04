@@ -111,7 +111,6 @@ SELECT 총점
 FROM view_score
 GROUP BY 총점;
 
-
 -- SQL 통계함수
 -- SUM(), AVG, MAX(), MIN(), COUNT()
 -- 총점(총합), 평균, 최대값, 최소값, 개수를 계산하는
